@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Food Delivery - Decorator Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/bridge/remotecontrol/AdvanceRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/bridge/remotecontrol/BasicRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/bridge/remotecontrol/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/bridge/remotecontrol/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/bridge/remotecontrol/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/bridge/remotecontrol/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/bridge/remotecontrol/TV.java" afterDir="false" />
+    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Remote Control - Bridge Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,26 +88,13 @@
       <recent name="org.learn.designpatterns.observer.weatherapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.org.learn.designpatterns.proxy.imagehosting.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.bridge.remotecontrol.Runner" />
       <module name="DesignPatterns.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.learn.designpatterns.bridge.remotecontrol.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.learn.designpatterns.abstractfactory.carcompany.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.abstractfactory.carcompany.Runner" />
-      <module name="DesignPatterns.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.abstractfactory.carcompany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.learn.designpatterns.proxy.imagehosting.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.proxy.imagehosting.Runner" />
+      <module name="DesignPatterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learn.designpatterns.proxy.imagehosting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.learn.designpatterns.proxy.imagehosting.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.decorator.fooddelivery.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.adapter.printer.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.prototype.drawingapp.Runner" />
-        <item itemvalue="Application.org.learn.designpatterns.abstractfactory.carcompany.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720343904140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Remote Control - Bridge Pattern">
+      <created>1720355647245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720355647245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +235,7 @@
     <MESSAGE value="Drawing Application - Prototype Pattern&#10;&#10;Car Manufacture Company - Abstract Factory Pattern" />
     <MESSAGE value="Legacy Printer - Adapter Pattern" />
     <MESSAGE value="Food Delivery - Decorator Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Food Delivery - Decorator Pattern" />
+    <MESSAGE value="Remote Control - Bridge Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remote Control - Bridge Pattern" />
   </component>
 </project>
