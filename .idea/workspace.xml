@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Remote Control - Bridge Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/RealImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/proxy/imagehosting/Runner.java" afterDir="false" />
+    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Image Display - Proxy Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -88,7 +89,7 @@
       <recent name="org.learn.designpatterns.observer.weatherapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.learn.designpatterns.proxy.imagehosting.Runner">
+  <component name="RunManager" selected="Application.org.learn.designpatterns.composite.orghirarchy.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.bridge.remotecontrol.Runner" />
       <module name="DesignPatterns.main" />
@@ -115,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.learn.designpatterns.decorator.fooddelivery.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.decorator.fooddelivery.Runner" />
+    <configuration name="org.learn.designpatterns.composite.orghirarchy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.composite.orghirarchy.Runner" />
       <module name="DesignPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.decorator.fooddelivery.*" />
+          <option name="PATTERN" value="org.learn.designpatterns.composite.orghirarchy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.learn.designpatterns.prototype.drawingapp.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.prototype.drawingapp.Runner" />
+    <configuration name="org.learn.designpatterns.decorator.fooddelivery.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.decorator.fooddelivery.Runner" />
       <module name="DesignPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.prototype.drawingapp.*" />
+          <option name="PATTERN" value="org.learn.designpatterns.decorator.fooddelivery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.learn.designpatterns.composite.orghirarchy.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.proxy.imagehosting.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.decorator.fooddelivery.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.adapter.printer.Runner" />
-        <item itemvalue="Application.org.learn.designpatterns.prototype.drawingapp.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720355647245</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Image Display - Proxy Pattern">
+      <created>1720359970139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720359970139</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +244,18 @@
     <MESSAGE value="Legacy Printer - Adapter Pattern" />
     <MESSAGE value="Food Delivery - Decorator Pattern" />
     <MESSAGE value="Remote Control - Bridge Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remote Control - Bridge Pattern" />
+    <MESSAGE value="Image Display - Proxy Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image Display - Proxy Pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Department.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
