@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Image Display - Proxy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/composite/orghirarchy/Runner.java" afterDir="false" />
+    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Composite Design Pattern - Organization Hierarchy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductFlyweightConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductFlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,29 +87,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.learn.designpatterns.flyweight.shoppingapp" />
       <recent name="org.learn.designpatterns.observer.weatherapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.learn.designpatterns.composite.orghirarchy.Runner">
+  <component name="RunManager" selected="Application.org.learn.designpatterns.flyweight.shoppingapp.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.bridge.remotecontrol.Runner" />
       <module name="DesignPatterns.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.learn.designpatterns.bridge.remotecontrol.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.learn.designpatterns.adapter.printer.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.adapter.printer.Runner" />
-      <module name="DesignPatterns.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.adapter.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.learn.designpatterns.flyweight.shoppingapp.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.flyweight.shoppingapp.Runner" />
+      <module name="DesignPatterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learn.designpatterns.flyweight.shoppingapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.learn.designpatterns.proxy.imagehosting.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.proxy.imagehosting.Runner" />
       <module name="DesignPatterns.main" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.learn.designpatterns.flyweight.shoppingapp.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.composite.orghirarchy.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.proxy.imagehosting.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.decorator.fooddelivery.Runner" />
-        <item itemvalue="Application.org.learn.designpatterns.adapter.printer.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720359970139</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Composite Design Pattern - Organization Hierarchy">
+      <created>1720361522215</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720361522215</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +254,8 @@
     <MESSAGE value="Food Delivery - Decorator Pattern" />
     <MESSAGE value="Remote Control - Bridge Pattern" />
     <MESSAGE value="Image Display - Proxy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image Display - Proxy Pattern" />
+    <MESSAGE value="Composite Design Pattern - Organization Hierarchy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composite Design Pattern - Organization Hierarchy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
