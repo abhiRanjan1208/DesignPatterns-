@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Composite Design Pattern - Organization Hierarchy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductFlyweightConcrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/ProductFlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/flyweight/shoppingapp/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Flyweight Pattern - Online Shopping System">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/builder/restaurant/ConcreteMealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/builder/restaurant/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/builder/restaurant/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/builder/restaurant/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <recent name="org.learn.designpatterns.observer.weatherapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.learn.designpatterns.flyweight.shoppingapp.Runner">
+  <component name="RunManager" selected="Application.org.learn.designpatterns.builder.restaurant.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.bridge.remotecontrol.Runner" />
       <module name="DesignPatterns.main" />
@@ -105,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.learn.designpatterns.composite.orghirarchy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.composite.orghirarchy.Runner" />
+    <configuration name="org.learn.designpatterns.builder.restaurant.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.builder.restaurant.Runner" />
       <module name="DesignPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.composite.orghirarchy.*" />
+          <option name="PATTERN" value="org.learn.designpatterns.builder.restaurant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.learn.designpatterns.decorator.fooddelivery.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.decorator.fooddelivery.Runner" />
+    <configuration name="org.learn.designpatterns.composite.orghirarchy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.composite.orghirarchy.Runner" />
       <module name="DesignPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.decorator.fooddelivery.*" />
+          <option name="PATTERN" value="org.learn.designpatterns.composite.orghirarchy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.learn.designpatterns.builder.restaurant.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.flyweight.shoppingapp.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.composite.orghirarchy.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.proxy.imagehosting.Runner" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.org.learn.designpatterns.decorator.fooddelivery.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720361522215</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Flyweight Pattern - Online Shopping System">
+      <created>1720588192138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720588192138</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +260,8 @@
     <MESSAGE value="Remote Control - Bridge Pattern" />
     <MESSAGE value="Image Display - Proxy Pattern" />
     <MESSAGE value="Composite Design Pattern - Organization Hierarchy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite Design Pattern - Organization Hierarchy" />
+    <MESSAGE value="Flyweight Pattern - Online Shopping System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight Pattern - Online Shopping System" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
