@@ -13,7 +13,7 @@ package org.learn.designpatterns.builder.restaurant;
  cake, or fruit.
 
  Creating a meal order with all the specific components and
- their options is complex and error-prone
+ their options is complex and error-prone.
 
  */
 
