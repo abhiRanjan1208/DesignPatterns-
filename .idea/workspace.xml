@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Strategy Pattern - Ecommerce">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/AdjustVolumeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/ChangeChannelCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/TurnOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/command/smarthome/TurnOnCommand.java" afterDir="false" />
+    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Command Pattern - Smart Home">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/CSVDataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/DataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/XMLDataProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +90,7 @@
       <recent name="org.learn.designpatterns.observer.weatherapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.learn.designpatterns.command.smarthome.Runner">
+  <component name="RunManager" selected="Application.org.learn.designpatterns.template.dataprocessing.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.strategy.ecommerce.Runner" />
       <module name="DesignPatterns.main" />
@@ -136,19 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.learn.designpatterns.composite.orghirarchy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.composite.orghirarchy.Runner" />
-      <module name="DesignPatterns.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.composite.orghirarchy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="org.learn.designpatterns.flyweight.shoppingapp.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.flyweight.shoppingapp.Runner" />
       <module name="DesignPatterns.main" />
@@ -162,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.learn.designpatterns.template.dataprocessing.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.template.dataprocessing.Runner" />
+      <module name="DesignPatterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learn.designpatterns.template.dataprocessing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.learn.designpatterns.template.dataprocessing.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.command.smarthome.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.strategy.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.builder.restaurant.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.flyweight.shoppingapp.Runner" />
-        <item itemvalue="Application.org.learn.designpatterns.composite.orghirarchy.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720861224315</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Command Pattern - Smart Home">
+      <created>1720949808805</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720949808805</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +285,8 @@
     <MESSAGE value="Flyweight Pattern - Online Shopping System" />
     <MESSAGE value="Builder Pattern - Restaurant" />
     <MESSAGE value="Strategy Pattern - Ecommerce" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy Pattern - Ecommerce" />
+    <MESSAGE value="Command Pattern - Smart Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command Pattern - Smart Home" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
