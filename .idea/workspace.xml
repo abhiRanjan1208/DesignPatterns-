@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Command Pattern - Smart Home">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/CSVDataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/template/dataprocessing/XMLDataProcessor.java" afterDir="false" />
+    <list default="true" id="1bea252f-6ac1-425e-bffc-57002ef1c2b4" name="Changes" comment="Template Pattern - Data Processor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/state/vendingmachine/HasCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/state/vendingmachine/NoCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/state/vendingmachine/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/state/vendingmachine/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/state/vendingmachine/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/state/vendingmachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/learn/designpatterns/state/vendingmachine/VendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +93,7 @@
       <recent name="org.learn.designpatterns.observer.weatherapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.learn.designpatterns.template.dataprocessing.Runner">
+  <component name="RunManager" selected="Application.org.learn.designpatterns.state.vendingmachine.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.strategy.ecommerce.Runner" />
       <module name="DesignPatterns.main" />
@@ -130,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.learn.designpatterns.flyweight.shoppingapp.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.flyweight.shoppingapp.Runner" />
+    <configuration name="org.learn.designpatterns.state.vendingmachine.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.learn.designpatterns.state.vendingmachine.Runner" />
       <module name="DesignPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.learn.designpatterns.flyweight.shoppingapp.*" />
+          <option name="PATTERN" value="org.learn.designpatterns.state.vendingmachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.learn.designpatterns.state.vendingmachine.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.template.dataprocessing.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.command.smarthome.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.strategy.Runner" />
         <item itemvalue="Application.org.learn.designpatterns.builder.restaurant.Runner" />
-        <item itemvalue="Application.org.learn.designpatterns.flyweight.shoppingapp.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720949808805</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Template Pattern - Data Processor">
+      <created>1720959136331</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720959136331</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +296,8 @@
     <MESSAGE value="Builder Pattern - Restaurant" />
     <MESSAGE value="Strategy Pattern - Ecommerce" />
     <MESSAGE value="Command Pattern - Smart Home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Command Pattern - Smart Home" />
+    <MESSAGE value="Template Pattern - Data Processor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template Pattern - Data Processor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
